@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="th"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;title&gt;เว็บเม็คเฟรนตามคณะ&lt;/title&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">body {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: linear-gradient(to right, #fbc2eb, #a6c1ee);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">h1 {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>animation: wiggle 2s infinite ease-in-out;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@keyframes wiggle {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>0% { transform: translateY(0px); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>25% { transform: translateY(-2px); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>50% { transform: translateY(0px); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>75% { transform: translateY(2px); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>100% { transform: translateY(0px); }</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.wiggle-text {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>animation: wiggle 2s infinite ease-in-out;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1">.grid {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>box-shadow: 0 4px 10px rgba(0,0,0,0.2);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>transition: 0.3s;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>transform: scale(1.05);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hidden { display: none; }</p>
+<p class="p2"><br></p>
+<p class="p1">button {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 10px 15px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-top: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #4CAF50;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.back-btn { background: #555; }</p>
+<p class="p2"><br></p>
+<p class="p1">textarea {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width: 80%;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>height: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-top: 15px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">input[type="file"] {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-top: 10px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.post {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 10px auto;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width: 70%;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>box-shadow: 0 4px 8px rgba(0,0,0,0.2);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>animation: floatUp 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>align-items: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.post img {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width: 70px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>height: 70px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>object-fit: cover;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@keyframes floatUp {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>from { transform: translateY(20px); opacity: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>to { transform: translateY(0); opacity: 1; }</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">footer {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #333;</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h1&gt;🌟 เว็บเม็คเฟรนเเต่ละคณะ 🌟&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div id="facultySection" class="grid"&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;div id="majorSection" class="grid hidden"&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;div id="makeFriendSection" class="hidden" style="text-align:center; padding:40px;"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1">*เว็บไซต์นี้สร้างจากนิสิตในรายวิชาการคิดเชิงออกแบบ</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">const data = {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะมนุษยศาสตร์และสังคมศาสตร์": ["ภาษาไทย","ภาษาอังกฤษ","ภาษาจีน","ภาษาญี่ปุ่น","ประวัติศาสตร์","การพัฒนาชุมชน","สังคมวิทยาและมานุษยวิทยา","รัฐประศาสนศาสตร์ (บางหลักสูตร)"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะศึกษาศาสตร์": ["การสอนภาษาไทย","การสอนภาษาอังกฤษ","การสอนคณิตศาสตร์","การสอนวิทยาศาสตร์","การศึกษาปฐมวัย","พลศึกษา","จิตวิทยาการศึกษา"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะวิทยาศาสตร์": ["คณิตศาสตร์","ฟิสิกส์","เคมี","ชีววิทยา","จุลชีววิทยา","วิทยาการคอมพิวเตอร์","เทคโนโลยีชีวภาพ"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะวิศวกรรมศาสตร์": ["วิศวกรรมโยธา","วิศวกรรมเครื่องกล","วิศวกรรมไฟฟ้า","วิศวกรรมอุตสาหการ","วิศวกรรมคอมพิวเตอร์"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะเทคโนโลยี": ["เทคโนโลยีอาหาร","เทคโนโลยีการเกษตร","เทคโนโลยีชีวภาพ (ประยุกต์)"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะสถาปัตยกรรมศาสตร์ ผังเมือง และนฤมิตศิลป์": ["สถาปัตยกรรม","ผังเมือง","การออกแบบภายใน","นิเทศศิลป์","ออกแบบผลิตภัณฑ์"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะวิทยาการสารสนเทศ": ["เทคโนโลยีสารสนเทศ (IT)","สารสนเทศศาสตร์","นิเทศศาสตร์","สื่อดิจิทัล"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะสิ่งแวดล้อมและทรัพยากรศาสตร์": ["สิ่งแวดล้อมศึกษา","การจัดการทรัพยากรธรรมชาติ","เทคโนโลยีสิ่งแวดล้อม"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์": ["ดุริยางคศิลป์","นาฏศิลป์","ทัศนศิลป์","วัฒนธรรมศึกษา"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะการบัญชีและการจัดการ": ["การบัญชี","การเงิน","การตลาด","การจัดการ","ธุรกิจระหว่างประเทศ"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะนิติศาสตร์": ["นิติศาสตร์"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะการท่องเที่ยวและการโรงแรม": ["การท่องเที่ยว","การโรงแรม"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"วิทยาลัยการเมืองการปกครอง": ["รัฐศาสตร์","รัฐประศาสนศาสตร์","ความสัมพันธ์ระหว่างประเทศ"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะแพทยศาสตร์": ["แพทยศาสตรบัณฑิต"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะเภสัชศาสตร์": ["เภสัชศาสตรบัณฑิต"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะพยาบาลศาสตร์": ["พยาบาลศาสตรบัณฑิต"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะสาธารณสุขศาสตร์": ["สาธารณสุขศาสตร์","อาชีวอนามัยและความปลอดภัย"],</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"คณะสัตวแพทยศาสตร์": ["สัตวแพทยศาสตรบัณฑิต"]</p>
+<p class="p1">};</p>
+<p class="p2"><br></p>
+<p class="p1">const facultySection = document.getElementById("facultySection");</p>
+<p class="p1">const majorSection = document.getElementById("majorSection");</p>
+<p class="p1">const makeFriendSection = document.getElementById("makeFriendSection");</p>
+<p class="p2"><br></p>
+<p class="p1">let currentMajor = "";</p>
+<p class="p2"><br></p>
+<p class="p1">function showFaculties() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>facultySection.innerHTML = "";</p>
+<p class="p1"><span class="Apple-converted-space">  </span>majorSection.classList.add("hidden");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>makeFriendSection.classList.add("hidden");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>facultySection.classList.remove("hidden");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>for (let faculty in data) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const div = document.createElement("div");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>div.className = "card wiggle-text";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>div.innerText = faculty;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>div.onclick = () =&gt; showMajors(faculty);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>facultySection.appendChild(div);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function showMajors(faculty) {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>facultySection.classList.add("hidden");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>majorSection.classList.remove("hidden");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>majorSection.innerHTML = "";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>data[faculty].forEach(major =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const div = document.createElement("div");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>div.className = "card wiggle-text";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>div.innerText = major;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>div.onclick = () =&gt; showMakeFriend(major);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>majorSection.appendChild(div);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>const backBtn = document.createElement("button");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>backBtn.innerText = "ย้อนกลับ";</p>
+<p class="p1"><span class="Apple-converted-space">  </span>backBtn.className = "back-btn";</p>
+<p class="p1"><span class="Apple-converted-space">  </span>backBtn.onclick = showFaculties;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>majorSection.appendChild(backBtn);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function showMakeFriend(major) {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>currentMajor = major;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>majorSection.classList.add("hidden");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>makeFriendSection.classList.remove("hidden");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>makeFriendSection.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 class="wiggle-text"&gt;${major}&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;เขียนแนะนำตัวหรือหาเพื่อนได้เลย*สามารถเพิ่มรูปหน้าตัวเองได้ 🎉&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;textarea id="userText" placeholder="พิมพ์ข้อความของคุณที่นี่..."&gt;&lt;/textarea&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="file" id="userImage" accept="image/*"&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="postMessage()"&gt;โพสต์ข้อความ&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="posts"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="back-btn" onclick="showFaculties()"&gt;กลับหน้าหลัก&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>loadPosts();</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function postMessage() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const text = document.getElementById("userText").value;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const imageInput = document.getElementById("userImage");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>if (text.trim() === "") return;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>const reader = new FileReader();</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>reader.onload = function(e) {</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const newPost = {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text: text,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>image: imageInput.files.length &gt; 0 ? e.target.result : null</p>
+<p class="p1"><span class="Apple-converted-space">    </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>let posts = JSON.parse(localStorage.getItem(currentMajor)) || [];</p>
+<p class="p1"><span class="Apple-converted-space">    </span>posts.push(newPost);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>localStorage.setItem(currentMajor, JSON.stringify(posts));</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById("userText").value = "";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>imageInput.value = "";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>loadPosts();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>if (imageInput.files.length &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>reader.readAsDataURL(imageInput.files[0]);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>reader.onload({ target:{ result:null } });</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function loadPosts() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const postsDiv = document.getElementById("posts");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if (!postsDiv) return;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>postsDiv.innerHTML = "";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>let posts = JSON.parse(localStorage.getItem(currentMajor)) || [];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>posts.forEach(post =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const postDiv = document.createElement("div");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>postDiv.className = "post";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (post.image) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const img = document.createElement("img");</p>
+<p class="p1"><span class="Apple-converted-space">      </span>img.src = post.image;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>postDiv.appendChild(img);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const textDiv = document.createElement("div");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>textDiv.innerText = post.text;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>postDiv.appendChild(textDiv);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>postsDiv.prepend(postDiv);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">showFaculties();</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;โอคมั้ย</p>
+</body>
+</html>
